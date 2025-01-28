@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #edb3a8;
+        font-family: 'Raleway', sans-serif;
+
+}
+
+#mainNav a{
+   
+    font-size:1.6rem;
+    color:#fff;
+    font-weight: 200;
+}
+#mainNav .navbar-brand{
+ color:#8a000a;
+}
+#mainNav a:hover{
+    color:#8a000a;
+
+
+}
+
+.heroSpan{
+     color:#8a000a;
+}
+
+#heroText h1{
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.juiceIcon{
+    margin-bottom:10%;
+}
+
+ .textSection h2{
+         color:#8a000a;
+         letter-spacing: 3px;
+         text-transform: uppercase;
+         font-weight: 200;
+         font-size: 2.2rem;
+}
+
+.textSection p{
+    font-weight:300;
+    line-height: 1.5rem;
+}
+.content{
+    margin-top:10%;
+}
+@media screen and (max-width: 950px) {
+   .textSection h2{
+        font-size: 1.8rem;
+       
+                     
+
+
+    }
+
+    
+}
+
+.navbar.scrolled{
+ background-color: #a0514c;
+ color:white;
+}
+
+.footerItems a {
+
+text-decoration: none;
+
+}
+
+footer{
+     background-color: #a0514c
+}
